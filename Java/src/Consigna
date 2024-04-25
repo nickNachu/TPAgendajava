@@ -1,0 +1,27 @@
+Dada la estructura Contacto, que permite registrar la información de personas de una agenda y que posee el siguiente comportamiento asociado:
+-EsMayorDeEdad: devuelve true si la persona es mayor de edad.
+Se pide desarrollar un programa que maneje una agenda de contactos y permita las siguientes funcionalidades:
+a)Implementar el método EsMayorDeEdad en el TDA Contacto.-
+b)////////////////Implementar el método AgregarContacto.///////////////
+c)////////////////Implementar el método EliminarContacto.-//////////////
+d)////////////////Buscar contacto en base a un determinado DNI.--///////////
+e)Buscar contactos que tengan una determinada edad.
+f)Obtener un listado de los contactos mayores de edad utilizando el método implementado en el punto (a).
+Consideraciones:Deberá trabajar con un Nodo dado para implementar la solución con una Estructura Enlazada. 
+La implementación dinámica deberá contemplar las siguientes estructuras.
+public class Contacto {
+	String nombre;
+	int dni;
+	int edad;
+}
+
+public class Nodo {
+	Contacto info;
+	Nodo sig;
+}
+
+
+Conjunto?
+--DNI es valor unico
+--No se pide orden especiifco
+---punto AyF son lo mismo
